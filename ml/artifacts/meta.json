@@ -1,0 +1,13 @@
+{
+  "lookback": 20,
+  "horizon": 1,
+  "train_split_index": 180,
+  "columns": [
+    "timestamp",
+    "throughput_mbps"
+  ],
+  "target": "throughput_mbps",
+  "test_loss_mse_scaled": 0.050537679344415665,
+  "test_mae_scaled": 0.18210741877555847,
+  "threshold_mbps": 15.0
+}

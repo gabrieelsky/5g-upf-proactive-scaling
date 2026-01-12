@@ -1,4 +1,3 @@
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -101,6 +100,5 @@ kind: NetworkAttachmentDefinition
 metadata:
   name: ueransim-net
 spec:
-  config: '{ "cniVersion": "0.3.0", "type": "macvlan", "master": "enp1s0", "ipam": { "type": "static", "addresses": [ { "address": "172.21.70.141/24",
+  config: '{ "cniVersion": "0.3.0", "type": "macvlan", "master": "ens3", "ipam": { "type": "static", "addresses": [ { "address": "172.21.70.141/24",
     "gateway": "172.21.70.1" } ] } }'
-    

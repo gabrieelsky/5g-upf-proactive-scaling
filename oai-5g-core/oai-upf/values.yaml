@@ -48,7 +48,7 @@ multus:
     gateway: ""
     ## If you do not want to add any routes in your pod then leave this field empty
     routes: []
-    hostInterface: "enp1s0"
+    hostInterface: "ens3"
   n4Interface:
     create: false
     ipAdd: "192.168.24.2"

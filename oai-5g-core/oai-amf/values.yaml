@@ -48,7 +48,7 @@ multus:
     ## If you do not want to add any routes in your pod then leave this field empty
     routes: []
     name: 'n2'
-    hostInterface: "enp1s0" # Interface of the host machine on which this pod will be scheduled
+    hostInterface: "ens3" # Interface of the host machine on which this pod will be scheduled
 
 ## Incase the pod is not able to resolve the FQDN of other network 
 ## functions example nrf then you can disable useFqdnDns feature this way AMF will talk to other network functions using their ip-address. 

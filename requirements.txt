@@ -1,0 +1,10 @@
+# Data manipulation
+numpy
+pandas
+
+# Required to load the saved Scaler object (MinMaxScaler)
+scikit-learn
+joblib
+
+# Required to load and run the LSTM model
+tensorflow
